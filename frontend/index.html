@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Route Optimizer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <div class="left-panel">
+    <div class="upload-section">
+      <h2>📤 Upload CSV</h2>
+      <input type="file" id="csvFile" />
+    </div>
+
+    <div class="card">
+      <h2>📍 Location Points</h2>
+      <div class="table-wrapper">
+        <table id="locationTable"></table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📊 Distance Summary</h2>
+      <div class="table-wrapper">
+        <table id="summaryTable"></table>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-panel">
+    <div id="map"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
