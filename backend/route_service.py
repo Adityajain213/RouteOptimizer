@@ -1,6 +1,6 @@
 import requests
 
-ORS_API_KEY = "5b3ce3597851110001cf624892a30fa5bd1a46b4b94fc8e3d1620b12"  # Replace this with your free ORS key
+ORS_API_KEY = "YOUR API KEY"  # Replace this with your free ORS key
 
 def get_route(coords):
     url = "https://api.openrouteservice.org/v2/directions/driving-car"
